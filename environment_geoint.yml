@@ -1,0 +1,14 @@
+name: geoint
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - geopandas
+  - shapely
+  - pyproj
+  - rasterio
+  - matplotlib
+  - jupyterlab
+  - ipykernel

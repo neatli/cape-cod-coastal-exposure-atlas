@@ -1,0 +1,24 @@
+# data stays local
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# mac
+.DS_Store
+
+# big geo files that sneak in elsewhere
+*.tif
+*.tiff
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.zip
